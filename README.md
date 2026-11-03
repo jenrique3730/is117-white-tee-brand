@@ -1,3 +1,4 @@
+
 # FORME / 01 — A white tee, with intention
 
 A premium minimalist classroom concept for the IS117 Brand Studio. FORME treats the plain white T-shirt as room for personal styling: show the object clearly, avoid assumptions, and let the visitor decide what it means in their everyday wardrobe.
@@ -36,4 +37,4 @@ Open the local address printed in the terminal. The size selector and temporary 
 Repository: https://github.com/jenrique3730/is117-white-tee-brand  
 BRAND-001 issue: https://github.com/jenrique3730/is117-white-tee-brand/issues/1  
 Feature branch: `1-brand-001-first-branded-storefront-and-live-style-guide`  
-Pull request: pending creation; see `SPEC.md` for current evidence. GitHub Pages is not configured.
+Draft pull request: https://github.com/jenrique3730/is117-white-tee-brand/pull/2 — not merged; learner review, successful checks, and keyboard/mobile observations remain pending. GitHub Pages is not configured.
