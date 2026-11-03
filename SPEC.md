@@ -9,7 +9,7 @@ This file records the current AI-created proposal and implementation state. **Th
 - GitHub repository: https://github.com/jenrique3730/is117-white-tee-brand
 - Issue: https://github.com/jenrique3730/is117-white-tee-brand/issues/1
 - Feature branch: `1-brand-001-first-branded-storefront-and-live-style-guide`
-- Pull request: Not created; code has not been pushed.
+- Pull request: Draft PR #2: https://github.com/jenrique3730/is117-white-tee-brand/pull/2. It is not merged; learner review, successful checks, and keyboard/mobile observations remain pending.
 
 ## Product boundary
 
