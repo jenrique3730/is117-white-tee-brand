@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="FORME — a white tee, presented with intention. A classroom concept storefront." />
+  <title>FORME — A white tee, with intention</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="shop.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="topline"><span>FORME / 01</span><span>A study in the everyday</span><span>Classroom concept · no checkout</span></div>
+  <header class="site-header wrap">
+    <a class="brand-link" href="index.html" aria-label="Forme home"><img class="wordmark" src="assets/forme-logo.svg" alt="Forme, the wordmark" width="160" height="34" /></a>
+    <nav class="main-nav" aria-label="Main navigation"><a class="nav-link" href="#product" aria-current="page">The tee</a><a class="nav-link" href="#story">Point of view</a><a class="nav-link" href="styleguide.html">Style guide</a><a class="nav-link" href="explorations/index.html">Design studies</a></nav>
+    <a class="bag-link" href="#demo-bag" aria-label="View demo bag">Bag <span id="bag-count" class="bag-count">0</span></a>
+  </header>
+  <main id="main">
+    <section id="product" class="product-section wrap" aria-labelledby="product-title">
+      <div class="product-visual">
+        <div class="visual-label"><span>Object no. 01</span><span>White / cotton not specified</span></div>
+        <img class="shirt-image" src="assets/white-shirt.svg" alt="A plain white, short-sleeved T-shirt illustration" width="800" height="880" fetchpriority="high" />
+        <div class="image-caption"><span>Nothing added. Nothing assumed.</span><span aria-hidden="true">↘</span></div>
+        <span class="visual-index" aria-hidden="true">01</span>
+      </div>
+      <div class="product-information">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> FORME / THE EVERYDAY STUDY</p>
+        <h1 id="product-title">A white tee.<br /><em>A clear point<br class="desktop-break" /> of view.</em></h1>
+        <p class="product-intro">One familiar piece, presented with intention.</p>
+        <p class="muted product-description">See what’s shown, choose a size, and decide if it belongs in your everyday uniform.</p>
+        <div class="price-row"><p class="price">$28 <span>USD</span></p><span class="micro-label">Illustrative demo price</span></div>
+        <form id="product-form" class="product-form" novalidate>
+          <fieldset aria-describedby="size-help size-error"><legend>Choose your size</legend><p id="size-help" class="field-help">Available in this demo: S, M, L, XL.</p>
+            <div class="size-options">
+              <label class="size-option"><input type="radio" name="size" value="S" /><span>S</span></label>
+              <label class="size-option"><input type="radio" name="size" value="M" /><span>M</span></label>
+              <label class="size-option"><input type="radio" name="size" value="L" /><span>L</span></label>
+              <label class="size-option"><input type="radio" name="size" value="XL" /><span>XL</span></label>
+            </div>
+            <p id="size-error" class="field-error" role="alert" hidden>Choose a size before adding the shirt to your demo bag.</p>
+          </fieldset>
+          <button class="button button-primary add-button" type="submit">Add to demo bag <span aria-hidden="true">↗</span></button>
+        </form>
+        <p class="demo-disclaimer">Classroom interaction using fictional price data. No order, payment, or personal information is collected.</p>
+        <dl class="product-facts"><div><dt>Color</dt><dd>White</dd></div><div><dt>Sizes shown</dt><dd>S / M / L / XL</dd></div><div><dt>Garment details</dt><dd>Not supplied</dd></div></dl>
+      </div>
+    </section>
+    <section class="note-band wrap" aria-label="A note on the product"><span class="section-number">The blank is the point</span><p>A plain tee is not an empty idea. It is room for the way <i>you</i> choose to wear it.</p><a href="#story" aria-label="Read the brand point of view">Read our point of view <span aria-hidden="true">↗</span></a></section>
+    <section id="story" class="story-section wrap" aria-labelledby="story-title">
+      <div class="story-mark"><span>FORME</span><span>Everyday, considered.</span></div>
+      <div class="story-copy"><p class="eyebrow">A point of view / 01</p><h2 id="story-title">The familiar,<br />seen with intention.</h2><p>FORME begins with a simple thought: an everyday piece can leave space for its wearer. The white T-shirt is a starting point, not a prescription. We show the object plainly and leave the styling, meaning, and next decision to you.</p><p class="story-footnote">This is a classroom brand concept. The garment illustration and demo price do not represent verified specifications or a live product.</p></div>
+    </section>
+    <section class="details-section wrap" aria-labelledby="details-title"><div class="details-heading"><p class="eyebrow">Design details / 02</p><h2 id="details-title">Less assumption.<br />More room.</h2></div><div class="details-list"><article><span>01</span><div><h3>A clear object</h3><p>One plain white short-sleeved tee illustration, with no added construction story.</p></div></article><article><span>02</span><div><h3>A useful choice</h3><p>Size options are visible before the demo interaction. The page describes what the visitor can do next.</p></div></article><article><span>03</span><div><h3>Space for you</h3><p>A free styling note: try the tee beneath an open overshirt, or let it stand alone. No signup required.</p></div></article></div></section>
+    <section class="invitation wrap" aria-labelledby="invitation-title"><p class="eyebrow">For people who dress by their own rules</p><h2 id="invitation-title">Your everyday<br /><i>is your own.</i></h2><p>Keep what feels useful. Make the rest yours.</p><a class="button button-secondary" href="#product">Return to the tee <span aria-hidden="true">↑</span></a></section>
+    <section id="demo-bag" class="bag-section wrap" aria-labelledby="bag-title"><div><p class="eyebrow">A small working interaction</p><h2 id="bag-title">Your demo bag.</h2></div><div class="bag-details"><p id="bag-status" class="bag-message" role="status" aria-live="polite" aria-atomic="true">Your demo bag is empty. Choose a size to try it.</p><ul id="bag-items" class="bag-items"></ul><button id="clear-bag" class="text-button" type="button" disabled>Empty demo bag</button><p class="field-help">The bag resets when this page reloads. There is no checkout.</p></div></section>
+  </main>
+  <footer class="site-footer wrap"><a class="footer-logo" href="index.html">FORME / 01</a><p>One familiar piece. Room for your point of view.</p><a href="styleguide.html">Identity & style guide <span aria-hidden="true">↗</span></a></footer>
+</body>
+</html>
